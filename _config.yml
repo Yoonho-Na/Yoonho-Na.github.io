@@ -106,7 +106,7 @@ analytics:
 author:
   name             : "Yoonho Na"
   avatar           : "/assets/images/908_gtrns_G99.10044444445644_D0.0.jpg" # path of avatar image, e.g. "/assets/images/bio-photo.jpg"
-  bio              : "Seoul National University <br/> Radiological Physics Lab"
+  bio              : "Seoul National University<br/>RPLab"
   location         : # "Seoul, Korea"
   email            : # "yoonho94.na@snu.ac.kr"
   links:
@@ -129,27 +129,27 @@ author:
       icon: "fab fa-fw fa-instagram"
       # url: "https://instagram.com/"
 
-# Site Footer
-footer:
-  links:
-    - label: "Twitter"
-      icon: "fab fa-fw fa-twitter-square"
-      # url:
-    - label: "Facebook"
-      icon: "fab fa-fw fa-facebook-square"
-      # url:
-    - label: "GitHub"
-      icon: "fab fa-fw fa-github"
-      # url:
-    - label: "GitLab"
-      icon: "fab fa-fw fa-gitlab"
-      # url:
-    - label: "Bitbucket"
-      icon: "fab fa-fw fa-bitbucket"
-      # url:
-    - label: "Instagram"
-      icon: "fab fa-fw fa-instagram"
-      # url:
+# # Site Footer
+# footer:
+#   links:
+#     - label: "Twitter"
+#       icon: "fab fa-fw fa-twitter-square"
+#       # url:
+#     - label: "Facebook"
+#       icon: "fab fa-fw fa-facebook-square"
+#       # url:
+#     - label: "GitHub"
+#       icon: "fab fa-fw fa-github"
+#       # url:
+#     - label: "GitLab"
+#       icon: "fab fa-fw fa-gitlab"
+#       # url:
+#     - label: "Bitbucket"
+#       icon: "fab fa-fw fa-bitbucket"
+#       # url:
+#     - label: "Instagram"
+#       icon: "fab fa-fw fa-instagram"
+#       # url:
 
 
 # Reading Files
