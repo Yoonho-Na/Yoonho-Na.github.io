@@ -19,7 +19,7 @@ locale                   : "en-US"
 title                    : "yoonho-na.github.io"
 title_separator          : "-"
 subtitle                 : # site tagline that appears below site title in masthead
-name                     : "Yoonho Na"
+name                     : "yoonho-na.github.io"
 description              : "Yoonho's personal website"
 url                      : "https://Yoonho-Na.github.io"
 baseurl                  : # the subpath of your site, e.g. "/blog"
@@ -68,7 +68,7 @@ algolia:
   application_id         : # YOUR_APPLICATION_ID
   index_name             : # YOUR_INDEX_NAME
   search_only_api_key    : # YOUR_SEARCH_ONLY_API_KEY
-  powered_by             : # true (default), false
+  powered_by             : false # true (default), false
 google:
   search_engine_id       : # YOUR_SEARCH_ENGINE_ID
   instant_search         : # false (default), true
@@ -106,8 +106,8 @@ analytics:
 author:
   name             : "Yoonho Na"
   avatar           : "/assets/images/908_gtrns_G99.10044444445644_D0.0.jpg" # path of avatar image, e.g. "/assets/images/bio-photo.jpg"
-  bio              : "SNU RPLab"
-  location         : "Seoul, Korea"
+  bio              : "SNU  RPLab"
+  location         : # "Seoul, Korea"
   email            : # "yoonho94.na@snu.ac.kr"
   links:
     - label: "yoonho94.na@snu.ac.kr"
