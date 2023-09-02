@@ -106,7 +106,7 @@ analytics:
 author:
   name             : "Yoonho Na"
   avatar           : "/assets/images/908_gtrns_G99.10044444445644_D0.0.jpg" # path of avatar image, e.g. "/assets/images/bio-photo.jpg"
-  bio              : "SNU  RPLab"
+  bio              : "SNU<br/>RPLab"
   location         : # "Seoul, Korea"
   email            : # "yoonho94.na@snu.ac.kr"
   links:
