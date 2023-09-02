@@ -1,4 +1,4 @@
-# Welcome to Jekyll!
+o# Welcome to Jekyll!
 #
 # This config file is meant for settings that affect your entire site, values
 # which you are expected to set up once and rarely need to edit after that.
@@ -106,7 +106,7 @@ analytics:
 author:
   name             : "Yoonho Na"
   avatar           : "/assets/images/908_gtrns_G99.10044444445644_D0.0.jpg" # path of avatar image, e.g. "/assets/images/bio-photo.jpg"
-  bio              : "SNU<br/>RPLab"
+  bio              : "Seoul National University<br/>Radiological Physics Lab"
   location         : # "Seoul, Korea"
   email            : # "yoonho94.na@snu.ac.kr"
   links:
