@@ -16,10 +16,10 @@ minimal_mistakes_skin    : "dark" # "air", "aqua", "contrast", "dark", "dirt", "
 
 # Site Settings
 locale                   : "en-US"
-title                    : "Yoonho Na"
+title                    : "yoonho-na.github.io"
 title_separator          : "-"
 subtitle                 : # site tagline that appears below site title in masthead
-name                     : "yoonho-na.github.io"
+name                     : "Yoonho Na"
 description              : "Yoonho's personal website"
 url                      : "https://Yoonho-Na.github.io"
 baseurl                  : # the subpath of your site, e.g. "/blog"
