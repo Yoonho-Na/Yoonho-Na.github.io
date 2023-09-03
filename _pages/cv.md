@@ -34,8 +34,9 @@ layout: single
 - 𝑨𝒑𝒑𝒂𝒓𝒂𝒕𝒖𝒔 𝒂𝒏𝒅 𝒎𝒆𝒕𝒉𝒐𝒅 𝒇𝒐𝒓 𝒈𝒆𝒏𝒆𝒓𝒂𝒕𝒊𝒏𝒈 𝒎𝒊𝒔𝒔𝒊𝒏𝒈 𝑴𝑹𝑰 (𝟏𝟎-𝟐𝟎𝟐𝟐-𝟎𝟏𝟓𝟗𝟓𝟎𝟓)
 
 ## 𝑪𝒐𝒏𝒇𝒆𝒓𝒆𝒏𝒄𝒆𝒔
+
 | Conference | Paper |
-|:------------:|:----------------------------------------------------------------:|
+|:----------:|:----------------------------------------------------------------:|
 | MIDL 2023 | Generation of Multi-modal Brain Tumor MRIs with Disentangled Latent Diffusion Model |
 | IFMIA 2023 | Generative Adversarial Network for Missing Brain Tumor MRIs |
 | RSNA 2022 | Missing Brain Tumor MRI Sequence Imputation with Laplacian filter Attention with Style Transfer Generative Adversarial Network |
