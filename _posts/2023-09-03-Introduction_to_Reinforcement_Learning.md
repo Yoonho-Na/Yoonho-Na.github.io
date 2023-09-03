@@ -67,3 +67,7 @@ Environment is about the **dynamics of the problem**
 - When the environment is **fully observable**,
   - Observation = Environment state
   - $S_t=O_t=$ environment state
+ 
+## 🤖 `Markov decision processes`
+- **WIP**
+
