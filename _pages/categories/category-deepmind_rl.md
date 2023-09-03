@@ -1,7 +1,7 @@
 ---
 title: "DeepMind x UCL RL Lecture "
 layout: archive
-permalink: categories/rl
+permalink: categories/deepmind_rl
 author_profile: true
 sidebar_main: true
 ---
