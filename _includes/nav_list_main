@@ -14,8 +14,8 @@
                 <!--rl 카테고리 글들을 모아둔 페이지인 /categories/rl 주소의 글로 링크 연결-->
                 <!--category[1].size 로 해당 카테고리를 가진 글의 개수 표시--> 
                 {% for category in site.categories %}
-                    {% if category[0] == "deepmind_rl" %}
-                        <li><a href="/categories/deepmind_rl" class="">DeepMind x UCL RL Lecture </a></li>
+                    {% if category[0] == "deepmind_lecture" %}
+                        <li><a href="/categories/deepmind_lecture" class="">DeepMind x UCL RL Lecture </a></li>
                     {% endif %}
                 {% endfor %}
             </ul>
