@@ -15,7 +15,7 @@
                 <!--category[1].size 로 해당 카테고리를 가진 글의 개수 표시--> 
                 {% for category in site.categories %}
                     {% if category[0] == "deepmind_lecture" %}
-                        <li><a href="/categories/deepmind_lecture" class="">DeepMind x UCL RL Lecture </a></li>
+                        <li><a href="/categories/deepmind_lecture" class="">DeepMind x UCL RL Lecture ({{category[1].size}})</a></li>
                     {% endif %}
                 {% endfor %}
             </ul>
@@ -23,7 +23,7 @@
             <ul>
                 {% for category in site.categories %}
                     {% if category[0] == "gm" %}
-                        <li><a href="/categories/gm" class="">Diffusion Model </a></li>
+                        <li><a href="/categories/gm" class="">Diffusion Model ({{category[1].size}})</a></li>
                     {% endif %}
                 {% endfor %}
             </ul>
