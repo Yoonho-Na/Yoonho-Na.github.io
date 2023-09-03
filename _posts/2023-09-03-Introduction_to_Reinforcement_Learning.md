@@ -17,6 +17,8 @@ last_modified_at: 2023-09-03
 
 # Notions
 
+<p align="center"><img src="/assets/DeepMind x UCL RL Lecture/agent_env.png" width=750></p>
+
 ## 🧠 `Agent`
 At step $t$, the **agent**:
 - Receives observation $O_t$ (and reward $R_t$)
