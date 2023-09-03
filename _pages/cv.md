@@ -5,14 +5,14 @@ layout: single
 ---
 
 # 𝒀𝒐𝒐𝒏𝒉𝒐 𝑵𝒂
-## Research Interest
+## 𝑹𝒆𝒔𝒆𝒂𝒓𝒄𝒉 𝑰𝒏𝒕𝒆𝒓𝒆𝒔𝒕
 - Computer vision
 - Reinforcement learning
 - Deep learning application in medicine
 
-## Work Experience
-### RADIOLOGICAL PHYSICS LABORATORY,
-**SEOUL NATIONAL UNIVERSITY**
+## 𝑾𝒐𝒓𝒌 𝑬𝒙𝒑𝒆𝒓𝒊𝒆𝒏𝒄𝒆
+### 𝑹𝑨𝑫𝑰𝑶𝑳𝑶𝑮𝑰𝑪𝑨𝑳 𝑷𝑯𝒀𝑺𝑰𝑪𝑺 𝑳𝑨𝑩𝑶𝑹𝑨𝑻𝑶𝑹𝒀,
+𝑺𝑬𝑶𝑼𝑳 𝑵𝑨𝑻𝑰𝑶𝑵𝑨𝑳 𝑼𝑵𝑰𝑽𝑬𝑹𝑺𝑰𝑻𝒀
 
 **PhD student, August 2020 – Present**
 - Radiotherapy inverse planning with reinforcement learning
@@ -20,27 +20,27 @@ layout: single
 -	Missing MRI sequence imputation with generative deep neural networks
 -	X-ray image classification for quarantine items
 
-### Biomedical Research Institute,
-**SEOUL NATIONAL UNIVERSITY**
+### 𝑩𝒊𝒐𝒎𝒆𝒅𝒊𝒄𝒂𝒍 𝑹𝒆𝒔𝒆𝒂𝒓𝒄𝒉 𝑰𝒏𝒔𝒕𝒊𝒕𝒖𝒕𝒆,
+𝑺𝑬𝑶𝑼𝑳 𝑵𝑨𝑻𝑰𝑶𝑵𝑨𝑳 𝑼𝑵𝑰𝑽𝑬𝑹𝑺𝑰𝑻𝒀
 
 **Research Assistant, August 2020 – 2021**
 - Deep learning-based sacroiliitis detection
 
-### Samsung Medical Center
+### 𝑺𝒂𝒎𝒔𝒖𝒏𝒈 𝑴𝒆𝒅𝒊𝒄𝒂𝒍 𝑪𝒆𝒏𝒕𝒆𝒓
 **Research Assistant, August 2020 – December 2020**
 - Medical imaging data preprocess
 
-## Education
-### BACHELOR OF SCIENCE,
+## 𝑬𝒅𝒖𝒄𝒂𝒕𝒊𝒐𝒏
+### 𝑩𝑨𝑪𝑯𝑬𝑳𝑶𝑹 𝑶𝑭 𝑺𝑪𝑰𝑬𝑵𝑪𝑬,
 NUCLEAR ENGINEERING, FEBRUARY 2020, KYUNG HEE UNIVERSITY, YONGIN, KOREA
 
-### MASTER OF SCIENCE,
+### 𝑴𝑨𝑺𝑻𝑬𝑹 𝑶𝑭 𝑺𝑪𝑰𝑬𝑵𝑪𝑬,
 APPLIED BIOENGINEERING, SEPTEMBER 2022, GRADUATE SCHOOL OF CONVERGENCE SCIENCE AND TECHNOLOGY, SEOUL NATIONAL UNIVERSITY, SEOUL, KOREA
 
-## Patents
+## 𝑷𝒂𝒕𝒆𝒏𝒕𝒔
 - Apparatus and method for generating missing MRI (10-2022-0159505)
 
-## Conferences
+## 𝑪𝒐𝒏𝒇𝒆𝒓𝒆𝒏𝒄𝒆𝒔
 - IFMIA 2023: Generative Adversarial Network for Missing Brain Tumor MRIs
 - RSNA 2022: Missing Brain Tumor MRI Sequence Imputation with Laplacian filter Attention with Style Transfer Generative Adversarial Network
 - RMSP 2022: Generation of Missing Brain Tumor MRI Sequence with GANs
