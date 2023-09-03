@@ -36,7 +36,7 @@ layout: single
 ## 𝑪𝒐𝒏𝒇𝒆𝒓𝒆𝒏𝒄𝒆𝒔
 
 | Conference | Paper |
-|:----------:|:----------------------------------------------------------------:|
+|:---:|:---:|
 | MIDL 2023 | Generation of Multi-modal Brain Tumor MRIs with Disentangled Latent Diffusion Model |
 | IFMIA 2023 | Generative Adversarial Network for Missing Brain Tumor MRIs |
 | RSNA 2022 | Missing Brain Tumor MRI Sequence Imputation with Laplacian filter Attention with Style Transfer Generative Adversarial Network |
