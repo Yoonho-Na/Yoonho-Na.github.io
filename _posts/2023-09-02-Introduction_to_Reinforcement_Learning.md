@@ -2,7 +2,7 @@
 layout: post
 title:  "Introduction to Reinforcement Learning"
 categories:
-  - deepmind_rl
+  - deepmind_lecture
 tags:
   - [Deepmind RL Lecture]
 date: 2023-09-03
