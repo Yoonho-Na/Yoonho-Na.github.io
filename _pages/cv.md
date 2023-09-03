@@ -1,5 +1,5 @@
 ---
-title: "Curriculum Vitae"
+title: "𝑪𝒖𝒓𝒓𝒊𝒄𝒖𝒍𝒖𝒎 𝑽𝒊𝒕𝒂𝒆"
 permalink: /about/
 layout: single
 ---
