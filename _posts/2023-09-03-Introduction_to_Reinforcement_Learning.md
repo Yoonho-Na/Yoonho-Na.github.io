@@ -43,14 +43,14 @@ Environment is about the **dynamics of the problem**
 
 ## 📊 `Values`
 - Value $\nu(s)$ is expected cumulative reward, from state $s$
-- $\nu(s) = \mathbb{E}\[G_t | S_t = s\] = \mathbb{E}\[R_{t+1}+R_{t+2}+R_{t+3}+...|S_t=s\]$
+- $\nu(s)=\mathbb{E}\[G_t|S_t=s\]=\mathbb{E}\[R_{t+1}+R_{t+2}+R_{t+3}+...|S_t=s\]$
 - The value depends on the actions the agent takes
 - Goal is to **maximize value**, by picking suitable actions
 - Recursive form
   - $G_t = R_{t+1}+G_{t+1}$
-  - $\nu(s) = \mathbb{E}\[R_{t+1}+\nu(S_{t+1})|S_t=s\]$
+  - $\nu(s)=\mathbb{E}\[R_{t+1}+\nu(S_{t+1})|S_t=s\]$
 
 ## 𝑸 `Action values`
 - Action value is value conditioned on **actions**
 - Also known as **Q-value**
-- $q(s, a)=\mathbb{E}\[G_t | S_t = s, A_t=a\] = \mathbb{E}\[R_{t+1}+R_{t+2}+R_{t+3}+...|S_t=s, A_t=a\]$
+- $q(s, a)=\mathbb{E}\[G_t|S_t=s,A_t=a\]=\mathbb{E}\[R_{t+1}+R_{t+2}+R_{t+3}+...|S_t=s, A_t=a\]$
