@@ -9,13 +9,13 @@ date: 2023-09-03
 last_modified_at: 2023-09-03
 ---
 
-<img src="/Users/nyh/Downloads/Lecture 1 - introduction/Lecture 1 - introduction-01.png" width=1000/>
+<img src="/assets/DeepMind_UCL_RL_slides/Lecture 1 - introduction/Lecture 1 - introduction-01.png" width=1000/>
 
-<img src="/Users/nyh/Downloads/Lecture 1 - introduction/Lecture 1 - introduction-20.png" width=1000/>
+<img src="/assets/DeepMind_UCL_RL_slides/Lecture 1 - introduction/Lecture 1 - introduction-20.png" width=1000/>
 
 ## Agent and Environment
 
-<img src="/home/yhn/Deepmind_UCL_RL_Lecture/pngs/Lecture 1 - introduction/Lecture 1 - introduction-21.png" width=1000/>
+<img src="/assets/DeepMind_UCL_RL_slides/Lecture 1 - introduction/Lecture 1 - introduction-21.png" width=1000/>
 
 ### Agent
 - Input: Observation, Reward
@@ -27,7 +27,7 @@ last_modified_at: 2023-09-03
 
 ## Rewards
 
-<img src="/home/yhn/Deepmind_UCL_RL_Lecture/pngs/Lecture 1 - introduction/Lecture 1 - introduction-22.png" width=1000/>
+<img src="/assets/DeepMind_UCL_RL_slides/Lecture 1 - introduction/Lecture 1 - introduction-22.png" width=1000/>
 
 ### Reward
 - instant feedback signal for a step
@@ -39,26 +39,22 @@ last_modified_at: 2023-09-03
 
 ## Values
 
-<img src="/home/yhn/Deepmind_UCL_RL_Lecture/pngs/Lecture 1 - introduction/Lecture 1 - introduction-23.png" width=1000/>
+<img src="/assets/DeepMind_UCL_RL_slides/Lecture 1 - introduction/Lecture 1 - introduction-23.png" width=1000/>
 
 ### Values
 - expected return from state s
 
 ## Action values
 
-<img src="/home/yhn/Deepmind_UCL_RL_Lecture/pngs/Lecture 1 - introduction/Lecture 1 - introduction-25.png" width=1000/>
+<img src="/assets/DeepMind_UCL_RL_slides/Lecture 1 - introduction/Lecture 1 - introduction-25.png" width=1000/>
 
 ### Action values
 - = Q-value
 - cumulative reward conditioned on both actions and states
 
-<img src="/Users/nyh/Downloads/Lecture 1 - introduction/Lecture 1 - introduction-27.png" width=1000/>
-
 # Agent
 
-<img src="/Users/nyh/Downloads/Lecture 1 - introduction/Lecture 1 - introduction-28.png" width=1000/>
+<img src="/assets/DeepMind_UCL_RL_slides/Lecture 1 - introduction/Lecture 1 - introduction-27.png" width=1000/>
 
+<img src="/assets/DeepMind_UCL_RL_slides/Lecture 1 - introduction/Lecture 1 - introduction-28.png" width=1000/>
 
-```python
-
-```
