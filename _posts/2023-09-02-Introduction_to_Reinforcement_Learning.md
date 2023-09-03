@@ -1,5 +1,5 @@
 ---
-layout: post
+layout: single
 title:  "Introduction to Reinforcement Learning"
 categories:
   - deepmind_lecture
