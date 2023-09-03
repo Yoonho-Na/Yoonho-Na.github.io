@@ -5,6 +5,8 @@ categories:
   - deepmind_rl
 tags:
   - [Deepmind RL Lecture]
+date: 2023-09-03
+last_modified_at: 2023-09-03
 ---
 
 # Welcome
