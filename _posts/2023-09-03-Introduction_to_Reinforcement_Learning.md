@@ -24,11 +24,11 @@ At step $t$, the **agent**:
 - Receives observation $O_t$ (and reward $R_t$)
 - Executes action $A_t$
 
-Agents contains:
-- **Agent state**
-- **Policy**
-- **Value function estimate**
-- **Model**
+Agent contains:
+- Agent state
+- Policy
+- Value function estimate
+- Model
 
 ## 🌎 `Environment`
 At step $t$, the **environment**:
