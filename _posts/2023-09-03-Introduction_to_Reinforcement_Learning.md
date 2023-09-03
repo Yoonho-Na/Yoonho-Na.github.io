@@ -56,3 +56,14 @@ Environment is about the **dynamics of the problem**
 - Action value is value conditioned on **actions**
 - Also known as **Q-value**
 - $q(s,a)=\mathbb{E}[G_t\mid S_t=s,A_t=a]=\mathbb{E}[R_{t+1}+R_{t+2}+R_{t+3}+...\mid S_t=s, A_t=a]$
+
+## 🎮 `Agent states`
+- $\neq$ Environment state
+- Environment state is usually invisible to the agent
+- Even if it is visible, it may contain lots of irrelevant information
+- History $\mathcal{H}_t$ is full sequence of observations, actions, and rewards
+- $\mathcal{H}_t=O_0, A_0, R_1, O_1, A_1,R_2 ..., O_t$
+- History is used to construct the agent state $S_t$
+- When the environment is **fully observable**,
+  - Observation = Environment state
+  - $S_t=O_t=$ environment state
