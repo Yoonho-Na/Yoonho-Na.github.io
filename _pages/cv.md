@@ -40,6 +40,7 @@ layout: single
 | MIDL 2023 | Generation of Multi-modal Brain Tumor MRIs with Disentangled Latent Diffusion Model |
 | IFMIA 2023 | Generative Adversarial Network for Missing Brain Tumor MRIs |
 | RSNA 2022 | Missing Brain Tumor MRI Sequence Imputation with Laplacian filter Attention with Style Transfer Generative Adversarial Network |
+| KCR 2022 | Missing Brain Tumor MRI Sequence Imputation with Laplacian filter Attention with Style Transfer Generative Adversarial Network |
 | RMSP 2022 | Generation of Missing Brain Tumor MRI Sequence with GANs |
 | BIEN 2021 | Brain MRI synthesis with progressive growing of generative adversarial network: a feasibility study |
 | KOSAIM 2021 | Multimodal Brain MRI Synthesis for Data Augmentation |
