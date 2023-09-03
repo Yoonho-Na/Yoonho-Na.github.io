@@ -1,14 +1,12 @@
 ---
 title:  "Introduction to Reinforcement Learning"
-
 categories:
   - deepmind_lecture
 tags:
   - [Deepmind RL Lecture]
-
+use_math: true
 toc: true
 toc_sticky: true
-
 date: 2023-09-03
 last_modified_at: 2023-09-03
 ---
