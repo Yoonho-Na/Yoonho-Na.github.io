@@ -70,5 +70,17 @@ Environment is about the **dynamics of the problem**
   - $S_t=O_t=$ environment state
  
 ## 🤖 `Markov decision processes`
-- **WIP**
-
+- MDP is used to formulate reinforcement learning problems
+- A decision process is Markovian if:
+  - $p(r, s, \mid S_t, A_t)=p(r, s \mid \mathcal{H}_t, A_t)$
+  - Probability of a reward and a subsequent state doesn't change either if we add more history or not
+- The state $S_t$ contains all we need to know from the history $\mathcal{H}_t$
+- Doesn't mean $S_t$ contains everything, just adding more $\mathcal{H}_t$ doesn't help
+- Agent state $S_t$ is some compression of $\mathcal{H}_t$
+- Note: $S_t=$ agent state $\neq$ environment state
+- **Partial observability**
+  - When the agent is partially observable,  **the observations are not Markovian**
+  - ex1) A robot with camera vision isn't told its absolute location
+  - ex2) A poker playing agent only observes public cards
+  - In this situation, using the observation as state would not be Markovian
+  - This process is called **partially observable Markov decision process (POMDP)**
