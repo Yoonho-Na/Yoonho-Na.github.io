@@ -94,3 +94,12 @@ Environment is about the **dynamics of the problem**
   - Generally: $S_{t+1}=u(S_t, A_t, R_{t+1}, O_{t+1})$
     - Where $u$ is a "state update function"
   - The agent state is often **much smaller** than the environment state
+- To deal with partial observability, agent can construct suitable state representations
+- Examples of agent states:
+  - Last observation: $S_t=O_t$ (might not be enough)
+  - Complete history: $S_t=\mathcal{H}_t,$ (might be too large)
+  - A generic update: $S_t=u(S_t, A_t, R_{t+1}, O_{t+1})$ (but how to pick/learn $u$?)
+- Constructing a fully Markovian agent state is often not feasible
+  - ex) The observation might be really complicated, might be hard to construct full Markovian
+
+## 𝝅 `Policy`
