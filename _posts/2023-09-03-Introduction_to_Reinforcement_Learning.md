@@ -84,3 +84,13 @@ Environment is about the **dynamics of the problem**
   - ex2) A poker playing agent only observes public cards
   - In this situation, using the observation as state would not be Markovian
   - This process is called **partially observable Markov decision process (POMDP)**
+  - Note that the **environment state** can still be Markov, but the agent doesn't know it
+  - Also, note that we can still be able to construct a Markov agent state
+    - For example, by giving the full history $\mathcal{H}_t$ instead of single state can make agent Markovian
+- **Agent state**
+  - The agent's actions depend on its state
+  - The agent state is function of the history
+  - For instance, $S_t=O_t$
+  - Generally: $S_{t+1}=u(S_t, A_t, R_{t+1}, O_{t+1})$
+    - Where $u$ is a "state update function"
+  - The agent state is often **much smaller** than the environment state
