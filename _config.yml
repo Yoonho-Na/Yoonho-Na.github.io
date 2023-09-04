@@ -112,7 +112,7 @@ author:
   links:
     - label: "yoonho94.na@snu.ac.kr"
       icon: "fas fa-fw fa-envelope-square"
-      url: yoonho94.na@snu.ac.kr # "mailto:your.name@email.com"
+      url: "mailto:yoonho94.na@snu.ac.kr" # "mailto:your.name@email.com"
     - label: "Website"
       icon: "fas fa-fw fa-link"
       # url: "https://your-website.com"
