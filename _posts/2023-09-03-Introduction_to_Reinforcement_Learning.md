@@ -42,6 +42,8 @@ Environment is about the **dynamics of the problem**
 - Reward specifies the **goal**
 - Cumulative reward = Return $G_t = R_{t+1}+R_{t+2}+R_{t+3}+... = \Sigma R_t$
 - Agent's job is to **maximize the return $G_t$**
+- Recursive form
+  - $G_t = R_{t+1}+G_{t+1}$
 
 ## 📊 `Values`
 - Value $\nu(s)$ is expected cumulative reward, from state $s$
@@ -49,7 +51,6 @@ Environment is about the **dynamics of the problem**
 - The value depends on the actions the agent takes
 - Goal is to **maximize value**, by picking suitable actions
 - Recursive form
-  - $G_t = R_{t+1}+G_{t+1}$
   - $\nu(s)=\mathbb{E}[R_{t+1}+\nu(S_{t+1})\mid S_t=s]$
 
 ## 𝑸 `Action values`
