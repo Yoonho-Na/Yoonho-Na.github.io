@@ -139,19 +139,40 @@ Environment is about the **dynamics of the problem**
 - **stochastic (generative) model** is also considerable
 
 # Agent Categories
-- Value based
+- `Value based`
   - No policy (Implicit)
   - Value function
-- Policy based
+- `Policy based`
   - Policy
   - No value function
-- Actor Critic
+- `Actor Critic`
   - Policy
   - Value function
-
-- Model free
+- `Model free`
   - Policy and/or Value funciton
   - No model
-- Model based
+- `Model based`
   - (Optionally) Policy and/or Value funciton
   - Model
+
+# Subproblems of the RL Problem
+## `Prediction and Control`
+- **Prediction**: Evaluate the future (for a given policy)
+- **Control**: Optimise the future (finding best policy)
+- Prediction and control can be strongly related
+  - $\pi_{\ast}(s)=\arg \max_{\pi}\nu_{\pi}(s)$
+## `Learning and Planning`
+- Two fundamental problems in RL
+- **Learning**:
+  - The environment is initially unknown
+  - The agent interacts with the environment
+- **Planning**:
+  - A model of the environment is given (or learnt)
+  - The agent plans in this model (w/o external interaction)
+  - a.k.a. reasoning, pondering, thought, search, planning
+## `Learning Agent Components`
+- All components are functions
+  - Policies: $\pi$ : $\mathcal{S} \rightarrow \mathcal{A}$
+  - Values functions: $\nu$ : $\mathcal{S} \rightarrow \mathbb{R}$
+  - Models: $m$ : $\mathcal{S} \rightarrow \mathcal{S}$ and/or $r$ : $\mathcal{S} \rightarrow \mathbb{R}$
+  - State update: $u$ : $\mathcal{S} \times \mathcal{O} \rightarrow \mathcal{S}$
