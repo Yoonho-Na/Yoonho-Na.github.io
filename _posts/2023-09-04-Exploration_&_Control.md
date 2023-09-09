@@ -12,7 +12,23 @@ toc: true
 toc_sticky: true
 
 date: 2023-09-04
-last_modified_at: 2023-09-04
+last_modified_at: 2023-09-09
 ---
 
-# WIP
+In this post, we simplify the seting
+- The environment have only single state
+  - Actions no longer have long-term consequences in the environment
+  - Actions still do impact immediate reward
+  - Other observations can be ignored
+
+## Exploration vs. Exploitation
+  - Exploitation: Maximise performance based on current knowledge
+  - Exploration: Increase knowledge
+
+# Formalising the problem
+## 🎰 `The Multi-Armed Bandit`
+- A multi-armed bandit is a set of distributions $\lbrace \mathcal{R}_a \mid a \in \mathcal{A} \rbrace$
+- $\mathcal{A}$ is (known) set of actions (or "arms")
+- $ \mathcal{R}$ is distribution on rewards, given action $a$
+- The goal is to pick the action, that gives the highest average reward
+- 
