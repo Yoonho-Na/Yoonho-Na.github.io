@@ -22,8 +22,8 @@ In this post, we simplify the seting
   - Other observations can be ignored
 
 ## Exploration vs. Exploitation
-  - Exploitation: Maximise performance based on current knowledge
-  - Exploration: Increase knowledge
+  - **Exploitation**: Maximise performance based on current knowledge
+  - **Exploration**: Increase knowledge
   - We need to gather information to make the best overall decisions
   - The best long-term strategy may involve short-term sacrifices
 
