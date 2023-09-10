@@ -35,4 +35,16 @@ In this post, we simplify the seting
 - The goal is to pick the action, that gives the highest average reward
 - At each step $t$ the agent selects an action $A_t \in \mathcal{A}$
 - The environment generates a reward $R_t \sim \mathcal{R}_{A_t}$
-- The goal is to maximise cumulative reward $\sum^t_{i=1} R_i$
+- The goal is to maximise cumulative reward $\sum^{t}_{i=1} R_i$
+- We do this by learning a *policy*: a distribution of $\mathcal{A}$
+
+## `Values and Regret`
+- The *action value* for action $a$ is the expected reward
+  - $q(a)= \mathbb{E}\[R_t \mid A_t =a\]$
+- The *optimal value*
+  - $v_{\ast}\max_{a \in \mathcal{A}}q(a)=\max_a \mathbb{E}\[R_t \mid A_t =a\]$
+- *Regret* of an action $a$
+  - Difference between maximum possible expected reward and the one that you get for this action
+  - $\Delta_a = v_{\ast}-q(a)$
+  - The regret for the optimal action is zero
+  - Useful way to look at the differences between different algorithms
