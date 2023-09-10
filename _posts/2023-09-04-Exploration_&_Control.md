@@ -26,7 +26,7 @@ In this post, we simplify the seting
   - Exploration: Increase knowledge
   - We need to gather information to make the best overall decisions
   - The best long-term strategy may involve short-term sacrifices
-  - 
+
 # Formalising the problem
 ## 🎰 `The Multi-Armed Bandit`
 - A multi-armed bandit is a set of distributions $\lbrace \mathcal{R}_a \mid a \in \mathcal{A} \rbrace$
@@ -38,13 +38,21 @@ In this post, we simplify the seting
 - The goal is to maximise cumulative reward $\sum^{t}_{i=1} R_i$
 - We do this by learning a *policy*: a distribution of $\mathcal{A}$
 
-## `Values and Regret`
+## `Values`
 - The *action value* for action $a$ is the expected reward
   - $q(a)= \mathbb{E}\[R_t \mid A_t =a\]$
 - The *optimal value*
   - $v_{\ast}\max_{a \in \mathcal{A}}q(a)=\max_a \mathbb{E}\[R_t \mid A_t =a\]$
+ 
+## `Regret`
 - *Regret* of an action $a$
-  - Difference between maximum possible expected reward and the one that you get for this action
+- Difference between maximum possible expected reward and the one that you get for this action
   - $\Delta_a = v_{\ast}-q(a)$
-  - The regret for the optimal action is zero
-  - Useful way to look at the differences between different algorithms
+- The regret for the optimal action is zero
+- Useful way to look at the differences between different algorithms
+- We want to minimise *total regret*
+  - $L_{t} = \sum_{n=1}^{t} v_{\ast} - q(A_n) = \sum_{n=1}^{t} \Delta_{A_n}$
+- Maximise cumulative reward $\equiv$ minimise total regret
+
+# Algorithms
+
